@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pomodoro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Pomodoro</h1>
+    <div id="timer" class="timer">25:00</div>    
+    <article class="horloge">
+      <div class="hours-container">
+        <div class="hours"></div>
+      </div>
+      <div class="minutes-container">
+        <div class="minutes"></div>
+      </div>
+      <div class="seconds-container">
+        <div class="seconds"></div>
+      </div>
+    </article>
+    <div id="clock" class="clock">--:--:--</div>
+    <div class="controls">
+      <button id="start">Démarrer</button>
+      <button id="pause">Pause</button>
+      <button class="div3" id="reset">Réinitialiser</button>
+    </div>
+    <div class="cycles">
+      <span id="cycles">Cycles : 0</span>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

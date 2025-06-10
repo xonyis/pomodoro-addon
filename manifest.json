@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "version": "1.0",
+    "description": "Un chronomètre Pomodoro simple et efficace.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icontime.png",
+        "32": "icontime.png",
+        "48": "icontime.png",
+        "128": "icontime.png"
+      }
+    },
+    "icons": {
+      "16": "icontime.png",
+      "32": "icontime.png",
+      "48": "icontime.png",
+      "128": "icontime.png"
+    },
+    "permissions": []
+  }
